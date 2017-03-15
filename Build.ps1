@@ -1,5 +1,5 @@
 echo "build: Build started"
-
+<#
 Push-Location $PSScriptRoot
 
 if(Test-Path .\artifacts) {
@@ -38,3 +38,4 @@ foreach ($test in ls test/*.Tests) {
 }
 
 Pop-Location
+#>
